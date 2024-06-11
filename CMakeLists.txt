@@ -4,4 +4,6 @@ project(Shutdown)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Shutdown src/main.cpp
-        src/include/main.hpp)
+        src/include/main.hpp
+        src/task.cpp
+        src/include/task.hpp)

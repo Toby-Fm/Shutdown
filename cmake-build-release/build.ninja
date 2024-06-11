@@ -55,6 +55,12 @@ build CMakeFiles/Shutdown.dir/src/main.cpp.obj: CXX_COMPILER__Shutdown_unscanned
   OBJECT_DIR = CMakeFiles\Shutdown.dir
   OBJECT_FILE_DIR = CMakeFiles\Shutdown.dir\src
 
+build CMakeFiles/Shutdown.dir/src/task.cpp.obj: CXX_COMPILER__Shutdown_unscanned_Release B$:/Programmierung/cpp/Jetbrain/Shutdown/src/task.cpp || cmake_object_order_depends_target_Shutdown
+  DEP_FILE = CMakeFiles\Shutdown.dir\src\task.cpp.obj.d
+  FLAGS = -O3 -DNDEBUG -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Shutdown.dir
+  OBJECT_FILE_DIR = CMakeFiles\Shutdown.dir\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Shutdown
@@ -63,7 +69,7 @@ build CMakeFiles/Shutdown.dir/src/main.cpp.obj: CXX_COMPILER__Shutdown_unscanned
 #############################################
 # Link the executable Shutdown.exe
 
-build Shutdown.exe: CXX_EXECUTABLE_LINKER__Shutdown_Release CMakeFiles/Shutdown.dir/src/main.cpp.obj
+build Shutdown.exe: CXX_EXECUTABLE_LINKER__Shutdown_Release CMakeFiles/Shutdown.dir/src/main.cpp.obj CMakeFiles/Shutdown.dir/src/task.cpp.obj
   FLAGS = -O3 -DNDEBUG
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Shutdown.dir
