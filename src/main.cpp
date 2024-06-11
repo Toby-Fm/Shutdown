@@ -1,5 +1,5 @@
 //#include "include/main.hpp"
-#include "include/readTask.hpp"
+#include "include/task.hpp"
 
 int main() {
     std::cout << " ▄▄▄▄▄▄▄▄▄▄▄  ▄         ▄  ▄         ▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄   ▄▄▄▄▄▄▄▄▄▄▄  ▄         ▄  ▄▄        ▄ " << std::endl;
@@ -15,6 +15,6 @@ int main() {
     std::cout << " ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀       ▀       ▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀▀▀  ▀▀       ▀▀  ▀        ▀▀ " << std::endl;
 
     //print_hello_world();
-    readTask();
+    task::readTask();
     return 0;
 }
